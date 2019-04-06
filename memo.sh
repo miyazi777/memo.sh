@@ -24,8 +24,6 @@ function delete() {
   fi
 }
 
-echo $2
-
 case $1 in
   "add")
     add $2
